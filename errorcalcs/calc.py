@@ -1,6 +1,3 @@
-
-# -*- coding: utf-8 -*-
- 
 import uncertainties as uc
 from uncertainties.umath import *
 

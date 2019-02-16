@@ -6,8 +6,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name='error-calculations',
-    version='0.3.0',
+    name='errorcalcs',
+    version='0.3.2',
     description='GUI for error calulations',
     long_description=long_description,
     long_description_content_type="text/markdown",

@@ -1,8 +1,7 @@
-# -*- coding: utf-8 -*-
 import webbrowser
 import urllib.request
 
-import calc
+from errorcalcs import calc
 
 def check_online():
     try:
