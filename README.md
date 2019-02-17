@@ -72,5 +72,5 @@ If LaTex is selected, the formula is also written to the .txt file. You can copy
 ## Installation
 errorcalcs can be installed by `pip3 install errorcalcs` (Linux) or simply `pip install errorcalcs` (Windows). You can run the GUI with following code:
 
-	from errorcalcs.errorcalcs import run\_e\_c
-	run\_e\_c()
+	from errorcalcs.errorcalcs import run_e_c
+	run_e_c()
