@@ -3,8 +3,7 @@
 import unittest
 import os
 
-import calc
-import add
+from errorcalcs import add, calc
 
 class TestNumberMethods(unittest.TestCase):
 

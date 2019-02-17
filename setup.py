@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='errorcalcs',
-    version='0.3.3',
+    version='0.3.1',
     description='GUI for error calulations',
     long_description=long_description,
     long_description_content_type="text/markdown",

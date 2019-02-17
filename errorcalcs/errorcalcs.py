@@ -6,7 +6,7 @@ from PyQt5.QtWidgets import (QApplication, QDialog, QGridLayout, QGroupBox,
                              QMessageBox, QFileDialog)
 from PyQt5.QtGui import (QIcon, QDoubleValidator)
 
-frcom errorcalcs import calc, add
+from errorcalcs import calc, add
 
 class e_c(QDialog):
     def __init__(self, parent=None):
