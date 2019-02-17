@@ -1,14 +1,12 @@
 import uncertainties as uc
 from uncertainties.umath import *
 
-
 def erzeuge_var(name, value):
     globals()[name] = value
 
 def calculate(var, value, error, formel):
     
     formel = formel[0]
-        
     for i in range(len(var)):
         erzeuge_var(var[i], uc.ufloat(value[i], error[i]))
     

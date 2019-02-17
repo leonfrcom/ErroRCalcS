@@ -26,8 +26,6 @@ def open_donation():
     else:
         return 'no_connection'
 
-
-
 def export_formula(status, var, formel, pfad):
     part_abl = calc.part_abl(var, formel)
     gauss_raw = '∆s = sqrt((∂s/∂x)^2 * (dx)^2 + (∂s/∂y)^2 * (dy)^2)\n'
