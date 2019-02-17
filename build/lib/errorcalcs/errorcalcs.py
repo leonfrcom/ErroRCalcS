@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 import os
 
 from PyQt5.QtWidgets import (QApplication, QDialog, QGridLayout, QGroupBox,
@@ -7,7 +5,6 @@ from PyQt5.QtWidgets import (QApplication, QDialog, QGridLayout, QGroupBox,
                              QVBoxLayout, QWidget, QScrollArea, QComboBox,
                              QMessageBox, QFileDialog)
 from PyQt5.QtGui import (QIcon, QDoubleValidator)
-
 
 import calc, add
 
@@ -287,8 +284,8 @@ class e_c(QDialog):
     def close_(self):
         self.close()
 ########end_of_GUI_functions########################
-
-if __name__ == '__main__':
+        
+def run_e_c():
     import sys
     
     try:
@@ -300,3 +297,7 @@ if __name__ == '__main__':
     gallery = e_c()
     gallery.show()
     sys.exit(app.exec_())
+
+if __name__ == '__main__':
+    run_e_c()
+   

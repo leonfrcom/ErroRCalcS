@@ -6,8 +6,8 @@
 
 "ErroRCalcS" is a GUI-tool to calculate uncertainties by using the uncertainties and the PyQt5 packages.
 
-## update 0.3.0
-In version 0.3.0 there are some new features:
+## update 0.3.1
+In version 0.3.1 there are some new features:
 
 * you can chose now where to save the formula file via the 'save here'-button
 * you can open the file directly by clicking 'open'
@@ -69,22 +69,5 @@ If LaTex is selected, the formula is also written to the .txt file. You can copy
 - uncertainties
 - PyQt5
 
-The executable installation is not available at thi moment!
 ## Installation
-If you just want to use the tool, without editing or something or if you don't want to download all used python modules, you can download the executables listed for the different distributions below.
-If you want to modificate the different files, then _clone_ this repository by following command to your computer:
-`git clone https://github.com/leonfrcom/ErroRCalcS`
-Or you can download a _zip_, which contains only the python scripts [here](https://github.com/leonfrcom/ErroRCalcS/raw/master/executables/ErroRCalcS.zip).
-
-Reminder: The application will build a folder in the same directory where the executable is.
-
-#### Windows
-In order to use the application on windows you can download the '_ErroRCalcS.exe_' [here](https://github.com/leonfrcom/ErroRCalcS/raw/master/executables/ErroRCalcS_0.3.0.exe).
-
-#### Linux
-For the use of the application on windows you can download the '_ErroRCalcS executable for linux_' [here](https://github.com/leonfrcom/ErroRCalcS/raw/master/executables/ErroRCalcS_0.3.0). This link leads to a download of a single executable file, which is the application. In the most cases you wont be able to run the application until you changed it to _executable_:
-You can do this by opening the console in the directory where the downloaded file is and typing the command `chmod +x ErroRCalcS` or you can do this by rightklick on the file -> _Properties_ -> _Permissions_ and mark 'Allow executing file as a program'.
-
-#### MacOS
-There is no executable file for MacOS yet! If you want to use _ErroRCalcS_, you have to _clone_ the repository, or if you only want to use the python files, download them [here](https://github.com/leonfrcom/ErroRCalcS/raw/master/executables/ErroRCalcS.zip).
-There will be a MacOS executable soon!
+coming soon
