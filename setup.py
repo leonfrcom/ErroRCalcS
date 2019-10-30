@@ -17,7 +17,8 @@ setup(
     packages=['errorcalcs'],
     install_requires=[
               'uncertainties',
-              'PyQt5'
+              'PyQt5',
+              'sympy'
               ],
     classifiers=[
         "Programming Language :: Python :: 3",
